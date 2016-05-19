@@ -7,7 +7,7 @@
 	<version>1.0.0-SNAPSHOT</version>
 
 	<dependencies>
-	
+
 		<!-- Configuração do Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -48,7 +48,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
+
 		<!-- Configuração do slf4j -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -73,7 +73,7 @@
 			<version>1.2.16</version>
 			<scope>runtime</scope>
 		</dependency>
-		
+
 		<!-- Configuração do Hibernate e JPA -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -99,6 +99,18 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.15</version>
+		</dependency>
+		
+		<!-- JSR 303 with Hibernate Validator -->
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>1.0.0.GA</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>4.2.0.Final</version>
 		</dependency>
 	</dependencies>
 
