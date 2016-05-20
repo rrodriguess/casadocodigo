@@ -32,6 +32,8 @@ public class Produto {
 	@ElementCollection
 	private List<Preco> precos;
 	
+	private String sumarioPath;
+	
 	public String getTitulo() {
 		return titulo;
 	}
@@ -98,6 +100,14 @@ public class Produto {
 		} else if (!titulo.equals(other.titulo))
 			return false;
 		return true;
+	}
+
+	public String getSumarioPath() {
+		return sumarioPath;
+	}
+
+	public void setSumarioPath(String sumarioPath) {
+		this.sumarioPath = sumarioPath;
 	}
 
 }
